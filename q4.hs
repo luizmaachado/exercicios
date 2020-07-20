@@ -1,3 +1,15 @@
+--- Implemente, em Haskell, a função combine que recebe uma lista de caracteres e uma
+--- String e retorne
+--- - All Once caso seja possível montar a String passada com todos os elementos do conjunto
+--- de caracteres, u@lizando cada um no máximo uma única vez
+--- - All Repeat caso seja possível montar a String passada com todos os elementos do
+--- conjunto de caracteres, u@lizando ao menos um deles mais de uma vez
+--- - Some Once caso seja possível montar a String passada com parte dos elementos do conjunto
+--- de caracteres, u@lizando cada um no máximo uma única vez
+--- - Some Repeat caso seja possível montar a String passada com parte dos elementos do
+--- conjunto de caracteres, u@lizando ao menos um deles mais de uma vez
+--- - False caso contrário. 
+
 data Results = AO | AR | SO | SR | F
 instance Show Results where 
     show AO = "All Once"
