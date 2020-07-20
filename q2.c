@@ -1,3 +1,12 @@
+/*
+Um número será auto-divisível se for possível separar esse número em dois blocos
+(esquerda e direita) e houver ao menos uma separação possível em que o resto da divisão do
+número original pela parte da direita é igual a parte da esquerda. Por exemplo, o número 2036
+é auto-divisível, pois se separar o bloco da esquerda como 20 e o da direita 36, tem-se 2036 %
+36 = 20. Escreva um programa que receba um intervalo fechado formado por dois inteiros e
+retorne, de acordo com o modelo apresentado nos exemplos abaixo, os números auto-divisíveis
+compreendidos entre eles e ao menos uma combinação que os tornem auto-divisível. 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
